@@ -37,13 +37,14 @@ function allThing(){
 }
 allThing();
 
-// allSongs.addEventListener("click", function(dets){
-//  selectedSong = dets.target.dataset.index;
-//  allThing();
-//  play.innerHTML=`<i class="ri-pause-line"></i>`
-//  flag = 1;
-//  audio.play();
-// })
+//--- Choose song to play ---//
+allSongs.addEventListener("click", function(dets){
+ selectedSong = dets.target.dataset.index;
+ allThing();
+ play.innerHTML=`<i class="ri-pause-line"></i>`
+ flag = 1;
+ audio.play();
+})
 
 var flag = 0;
 
