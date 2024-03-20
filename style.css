@@ -20,7 +20,7 @@ html,body{
     background: url("background.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:cover;
     display: flex;
     padding: 5vw 10vw;
     display: flex;
@@ -113,17 +113,16 @@ html,body{
 }
 .left #player h3{
     border-radius: 50%;
-    background: #484e60;
+    background: #1c51e4;
     box-shadow: inset -13px 13px 26px #363b48,
                 inset 13px -13px 26px #5a6278;
     padding: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 50%;
 }
 #player h3 i{
-    font-size: 24px;
+    font-size: 30px;
 }
 #player h3:active{
     scale:0.9;
@@ -186,7 +185,7 @@ html,body{
 }
 .song-card h2{
     font-size: 22px;
-    color: #363b48;
+    color: #f4f6fa;
     font-weight: 600;
 }
 .song-card h6{
@@ -198,8 +197,8 @@ html,body{
 @media screen and (max-width:768px) {
     
 .left{
-    height: 300px;
-    width: 55%;
+    height: 400px;
+    width: 60%;
     display: block;
 }
 }
