@@ -1,4 +1,4 @@
-# Music Player[1]
+# [Music Player][1]
 [1]: music-piayer.netlify.app
 A simple, lightweight, and easy-to-use music player built with HTML, CSS, and JavaScript. Experience your favorite tracks in a clean, minimalistic interface, directly in your web browser.
 
