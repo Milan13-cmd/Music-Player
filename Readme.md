@@ -1,5 +1,5 @@
-# Music Player
-
+# Music Player[1]
+[1]: music-piayer.netlify.app
 A simple, lightweight, and easy-to-use music player built with HTML, CSS, and JavaScript. Experience your favorite tracks in a clean, minimalistic interface, directly in your web browser.
 
 ## Features
@@ -8,11 +8,10 @@ A simple, lightweight, and easy-to-use music player built with HTML, CSS, and Ja
 - **Track Selection:** Navigate through your music library and select any track to play.
 - **Volume Control:** Adjust the volume to suit your listening preference.
 - **Progress Bar:** Seek to any position in the song easily with the progress bar.
-- **Shuffle/Repeat:** Mix up your music or loop your favorite track.
 
 
 ## Customization
-You can add your own music by modifying the playlist.js (or similar) file. Ensure your music files are hosted and accessible, then update the paths in the script.
+You can add your own music by modifying the script.js (or similar) file. Ensure your music files are hosted and accessible, then update the paths in the script.
 
 - **Javascript**
 ```bash 
@@ -20,13 +19,13 @@ You can add your own music by modifying the playlist.js (or similar) file. Ensur
 const playlist = [
   {
     title: "Song Title 1",
-    artist: "Artist Name",
-    file: "path/to/song1.mp3",
+    song:"path/to/song1.mp3"
+    img:"path/to/img1.png"
   },
   {
     title: "Song Title 2",
-    artist: "Artist Name",
-    file: "path/to/song2.mp3",
+    song:"path/to/song2.mp3"
+    img:"path/to/img2.png"
   },
   // Add more songs as needed
 ];
